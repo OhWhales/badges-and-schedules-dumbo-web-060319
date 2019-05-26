@@ -29,6 +29,6 @@ def assign_rooms(speakers)
     roomNumber= roomNumber + 1 
     counter = counter + 1
   end 
-  return 
+  return finalArr
 end 
   
