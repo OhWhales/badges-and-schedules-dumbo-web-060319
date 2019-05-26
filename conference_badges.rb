@@ -9,4 +9,4 @@ def batch_badge_creator(names)
   counter = 0 
   while (counter < names.size)
     z=names[counter]
-    sentence = "Hello, my name is #{z}"
+    sentence = "Hello, my name is #{z}."
