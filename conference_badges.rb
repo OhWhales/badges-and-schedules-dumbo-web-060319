@@ -13,4 +13,5 @@ def batch_badge_creator(names)
     finalArr.push(sentence)
     counter = counter + 1 
   end 
+  return finalArr
 end 
