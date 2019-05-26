@@ -16,3 +16,5 @@ def batch_badge_creator(names)
   return finalArr
 end 
 
+def assign_rooms(speakers)
+  
