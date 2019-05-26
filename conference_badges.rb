@@ -18,3 +18,4 @@ end
 
 def assign_rooms(speakers)
   roomNumber = 1 
+  finalArr = [] 
