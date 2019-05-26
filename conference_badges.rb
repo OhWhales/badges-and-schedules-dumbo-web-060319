@@ -25,8 +25,10 @@ def assign_rooms(speakers)
     tempRoom=roomNumber+1 
     name = speakers[counter]
     tempSentence = "Hello, #{name}! You'll be assigned to room #{tempRoom}"
+    finalArr.push(tempSentence)
     roomNumber= roomNumber + 1 
     counter = counter + 1
   end 
+  return 
 end 
   
