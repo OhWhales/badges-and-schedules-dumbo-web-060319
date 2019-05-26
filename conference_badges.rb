@@ -3,3 +3,10 @@
 def badge_maker(name)
   puts "Hello, my name is #{name}"
 end 
+
+def batch_badge_creator(names)
+  finalArr=[]
+  counter = 0 
+  while (counter < names.size)
+    z=names[counter]
+    sentence = "Hello, my name is #{n"
