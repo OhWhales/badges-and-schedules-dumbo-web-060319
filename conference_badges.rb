@@ -34,5 +34,12 @@ end
 def printer
   batch = batch_badge_creator
   rooms = assign_rooms
+  
+  for x in batch 
+    puts x 
+  end 
+  for y in rooms 
+    puts y 
+  end 
 end
   
