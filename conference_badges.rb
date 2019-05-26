@@ -33,8 +33,8 @@ def assign_rooms(speakers)
 end 
 
 def printer(attendees)
-  batch = batch_badge_creator
-  rooms = assign_rooms
+  batch = batch_badge_creator(attendees)
+  rooms = assign_rooms(attendees)
   
   for x in batch 
     puts x 
