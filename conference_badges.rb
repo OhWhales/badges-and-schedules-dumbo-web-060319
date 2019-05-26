@@ -24,4 +24,5 @@ def assign_rooms(speakers)
   while ( counter < speakers.size)
     tempRoom=roomNumber+1 
     roomNumber= roomNumber + 1 
+    counter = counter + 1
   
