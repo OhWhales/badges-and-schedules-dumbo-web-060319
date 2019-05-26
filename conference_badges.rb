@@ -27,4 +27,5 @@ def assign_rooms(speakers)
     tempSentence = "Hello, #{name}! You'll be assigned to room #{tempRoom}"
     roomNumber= roomNumber + 1 
     counter = counter + 1
+end 
   
